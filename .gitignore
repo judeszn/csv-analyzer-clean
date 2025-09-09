@@ -1,0 +1,19 @@
+# Large files
+*.zip
+*.tar.gz
+node_modules/
+venv/
+__pycache__/
+.serverless/
+lambda_package/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
