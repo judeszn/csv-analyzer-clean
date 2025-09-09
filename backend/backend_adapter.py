@@ -20,10 +20,6 @@ async def root():
 async def health_check():
     return {"status": "healthy", "service": "backend"}
 
-@app.post("/api/analyze")
-async def analyze_file():
-    return {"message": "Analysis endpoint ready", "status": "success"}
-
 if __name__ == "__main__":
     import uvicorn
     port = int(os.getenv("PORT", 8000))
